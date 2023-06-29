@@ -16,3 +16,5 @@ app.use(errorHandler);
 app.listen(PORT, () =>{
     console.log(`Server ruuning at Port ${PORT}`)
 })
+
+// "dev": "nodemon server.js" in package.json
