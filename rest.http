@@ -1,0 +1,14 @@
+### GET ALL CONTACTS API
+GET http://localhost:1800/api/contacts
+
+### GET SINGLE CONTACT API
+GET http://localhost:1800/api/contacts/1
+
+### CREATE CONTACT API
+POST http://localhost:1800/api/contacts
+
+### UPDATE CONTACT API
+PUT http://localhost:1800/api/contacts/1
+
+### DELETE CONTACT API
+DELETE  http://localhost:1800/api/contacts/1
