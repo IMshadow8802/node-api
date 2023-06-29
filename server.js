@@ -9,6 +9,9 @@ const app = express();
 const PORT = process.env.PORT || 1500;
 
 app.use(express.json());
+app.get("/",(req,res)=>{
+    res.send("Hi I am live")
+})
 app.use("/api/contacts",require("./routes/contactRoutes"));
 app.use("/api/users",require("./routes/userRoutes"));
 app.use(errorHandler);
